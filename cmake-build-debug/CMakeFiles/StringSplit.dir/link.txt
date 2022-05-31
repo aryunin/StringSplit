@@ -1,0 +1,3 @@
+"E:\programming\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\StringSplit.dir/objects.a
+E:\programming\mingw-w64\mingw64\bin\ar.exe cr CMakeFiles\StringSplit.dir/objects.a @CMakeFiles\StringSplit.dir\objects1.rsp
+E:\programming\mingw-w64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\StringSplit.dir/objects.a -Wl,--no-whole-archive -o StringSplit.exe -Wl,--out-implib,libStringSplit.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StringSplit.dir\linklibs.rsp
